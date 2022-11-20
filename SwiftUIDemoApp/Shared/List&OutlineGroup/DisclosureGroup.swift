@@ -12,7 +12,7 @@ struct SettingsView: View {
     @State private var electricState: Bool = true
     @State private var fuelCellState: Bool = false
     @State private var inversionState: Bool = true
-    @State private var filtersExpanded: Bool = true
+    @State private var filtersExpanded: Bool = false
     var body: some View {
         Form {
             DisclosureGroup(isExpanded: $filtersExpanded) {
@@ -30,6 +30,12 @@ struct SettingsView: View {
                 Label("Color Settings", systemImage: "scribble.variable")
             }
         }
+    }
+}
+
+struct SettingView_Preview: PreviewProvider {
+    static var previews: some View {
+        SettingsView()
     }
 }
 struct ColorControl: View {

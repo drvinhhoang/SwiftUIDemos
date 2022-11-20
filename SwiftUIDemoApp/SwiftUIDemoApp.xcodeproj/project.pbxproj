@@ -21,8 +21,8 @@
 		AF110B532928945D00C921FE /* UseList.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF110B512928945D00C921FE /* UseList.swift */; };
 		AF110B552928947600C921FE /* CellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF110B542928947600C921FE /* CellView.swift */; };
 		AF110B562928947600C921FE /* CellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF110B542928947600C921FE /* CellView.swift */; };
-		AF110B582928949300C921FE /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF110B572928949300C921FE /* SettingView.swift */; };
-		AF110B592928949300C921FE /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF110B572928949300C921FE /* SettingView.swift */; };
+		AF110B582928949300C921FE /* DisclosureGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF110B572928949300C921FE /* DisclosureGroup.swift */; };
+		AF110B592928949300C921FE /* DisclosureGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF110B572928949300C921FE /* DisclosureGroup.swift */; };
 		AF110B5B2928B72C00C921FE /* ContextMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF110B5A2928B72C00C921FE /* ContextMenu.swift */; };
 		AF110B5C2928B72C00C921FE /* ContextMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF110B5A2928B72C00C921FE /* ContextMenu.swift */; };
 		AF110B5E2928BA5C00C921FE /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF110B5D2928BA5C00C921FE /* Menu.swift */; };
@@ -31,6 +31,20 @@
 		AF110B622928BAE100C921FE /* ShapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF110B602928BAE100C921FE /* ShapeView.swift */; };
 		AF110B642928C06D00C921FE /* DrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF110B632928C06D00C921FE /* DrawingView.swift */; };
 		AF110B652928C06D00C921FE /* DrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF110B632928C06D00C921FE /* DrawingView.swift */; };
+		AF110B672928D68C00C921FE /* ImplicitAnimationDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF110B662928D68C00C921FE /* ImplicitAnimationDemo.swift */; };
+		AF110B682928D68C00C921FE /* ImplicitAnimationDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF110B662928D68C00C921FE /* ImplicitAnimationDemo.swift */; };
+		AF110B6A2928DCA100C921FE /* ExplicitAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF110B692928DCA100C921FE /* ExplicitAnimation.swift */; };
+		AF110B6B2928DCA100C921FE /* ExplicitAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF110B692928DCA100C921FE /* ExplicitAnimation.swift */; };
+		AF110B6E2928E9FC00C921FE /* AutoStartAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF110B6D2928E9FC00C921FE /* AutoStartAnimation.swift */; };
+		AF110B6F2928E9FC00C921FE /* AutoStartAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF110B6D2928E9FC00C921FE /* AutoStartAnimation.swift */; };
+		AF110B732928EEE400C921FE /* Transition.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF110B722928EEE400C921FE /* Transition.swift */; };
+		AF110B742928EEE400C921FE /* Transition.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF110B722928EEE400C921FE /* Transition.swift */; };
+		AF110B762929254000C921FE /* Gestures.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF110B752929254000C921FE /* Gestures.swift */; };
+		AF110B772929254000C921FE /* Gestures.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF110B752929254000C921FE /* Gestures.swift */; };
+		AF110B7A29292F5D00C921FE /* UpdatingCallBackAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF110B7929292F5D00C921FE /* UpdatingCallBackAction.swift */; };
+		AF110B7B29292F5D00C921FE /* UpdatingCallBackAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF110B7929292F5D00C921FE /* UpdatingCallBackAction.swift */; };
+		AF110B7E29294EF000C921FE /* ComposingGestures.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF110B7D29294EF000C921FE /* ComposingGestures.swift */; };
+		AF110B7F29294EF000C921FE /* ComposingGestures.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF110B7D29294EF000C921FE /* ComposingGestures.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,11 +58,18 @@
 		AF110B4E2928944000C921FE /* UseOutlineGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UseOutlineGroup.swift; sourceTree = "<group>"; };
 		AF110B512928945D00C921FE /* UseList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UseList.swift; sourceTree = "<group>"; };
 		AF110B542928947600C921FE /* CellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellView.swift; sourceTree = "<group>"; };
-		AF110B572928949300C921FE /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
+		AF110B572928949300C921FE /* DisclosureGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisclosureGroup.swift; sourceTree = "<group>"; };
 		AF110B5A2928B72C00C921FE /* ContextMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContextMenu.swift; sourceTree = "<group>"; };
 		AF110B5D2928BA5C00C921FE /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
 		AF110B602928BAE100C921FE /* ShapeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeView.swift; sourceTree = "<group>"; };
 		AF110B632928C06D00C921FE /* DrawingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingView.swift; sourceTree = "<group>"; };
+		AF110B662928D68C00C921FE /* ImplicitAnimationDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImplicitAnimationDemo.swift; sourceTree = "<group>"; };
+		AF110B692928DCA100C921FE /* ExplicitAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExplicitAnimation.swift; sourceTree = "<group>"; };
+		AF110B6D2928E9FC00C921FE /* AutoStartAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoStartAnimation.swift; sourceTree = "<group>"; };
+		AF110B722928EEE400C921FE /* Transition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transition.swift; sourceTree = "<group>"; };
+		AF110B752929254000C921FE /* Gestures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gestures.swift; sourceTree = "<group>"; };
+		AF110B7929292F5D00C921FE /* UpdatingCallBackAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdatingCallBackAction.swift; sourceTree = "<group>"; };
+		AF110B7D29294EF000C921FE /* ComposingGestures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposingGestures.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,14 +105,12 @@
 				AF110B2D2928862400C921FE /* SwiftUIDemoApp.swift */,
 				AF110B2E2928862400C921FE /* ContentView.swift */,
 				AF110B5D2928BA5C00C921FE /* Menu.swift */,
-				AF110B602928BAE100C921FE /* ShapeView.swift */,
-				AF110B632928C06D00C921FE /* DrawingView.swift */,
+				AF110B7C2929305F00C921FE /* Gestures */,
 				AF110B5A2928B72C00C921FE /* ContextMenu.swift */,
-				AF110B4E2928944000C921FE /* UseOutlineGroup.swift */,
-				AF110B572928949300C921FE /* SettingView.swift */,
-				AF110B542928947600C921FE /* CellView.swift */,
-				AF110B512928945D00C921FE /* UseList.swift */,
-				AF110B4B2928866A00C921FE /* CarInfo.swift */,
+				AF110B702928EBA300C921FE /* Shape&Drawing */,
+				AF110B6C2928E9D800C921FE /* animations */,
+				AF110B712928ECB900C921FE /* List&OutlineGroup */,
+				AF110B782929271400C921FE /* Views */,
 				AF110B2F2928862900C921FE /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -112,6 +131,55 @@
 				AF110B3C2928862900C921FE /* macOS.entitlements */,
 			);
 			path = macOS;
+			sourceTree = "<group>";
+		};
+		AF110B6C2928E9D800C921FE /* animations */ = {
+			isa = PBXGroup;
+			children = (
+				AF110B662928D68C00C921FE /* ImplicitAnimationDemo.swift */,
+				AF110B692928DCA100C921FE /* ExplicitAnimation.swift */,
+				AF110B722928EEE400C921FE /* Transition.swift */,
+				AF110B6D2928E9FC00C921FE /* AutoStartAnimation.swift */,
+			);
+			path = animations;
+			sourceTree = "<group>";
+		};
+		AF110B702928EBA300C921FE /* Shape&Drawing */ = {
+			isa = PBXGroup;
+			children = (
+				AF110B602928BAE100C921FE /* ShapeView.swift */,
+				AF110B632928C06D00C921FE /* DrawingView.swift */,
+			);
+			path = "Shape&Drawing";
+			sourceTree = "<group>";
+		};
+		AF110B712928ECB900C921FE /* List&OutlineGroup */ = {
+			isa = PBXGroup;
+			children = (
+				AF110B4E2928944000C921FE /* UseOutlineGroup.swift */,
+				AF110B572928949300C921FE /* DisclosureGroup.swift */,
+				AF110B512928945D00C921FE /* UseList.swift */,
+			);
+			path = "List&OutlineGroup";
+			sourceTree = "<group>";
+		};
+		AF110B782929271400C921FE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AF110B542928947600C921FE /* CellView.swift */,
+				AF110B4B2928866A00C921FE /* CarInfo.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AF110B7C2929305F00C921FE /* Gestures */ = {
+			isa = PBXGroup;
+			children = (
+				AF110B752929254000C921FE /* Gestures.swift */,
+				AF110B7929292F5D00C921FE /* UpdatingCallBackAction.swift */,
+				AF110B7D29294EF000C921FE /* ComposingGestures.swift */,
+			);
+			path = Gestures;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,16 +280,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF110B7A29292F5D00C921FE /* UpdatingCallBackAction.swift in Sources */,
+				AF110B732928EEE400C921FE /* Transition.swift in Sources */,
 				AF110B3F2928862900C921FE /* ContentView.swift in Sources */,
+				AF110B7E29294EF000C921FE /* ComposingGestures.swift in Sources */,
 				AF110B4C2928866A00C921FE /* CarInfo.swift in Sources */,
 				AF110B552928947600C921FE /* CellView.swift in Sources */,
-				AF110B582928949300C921FE /* SettingView.swift in Sources */,
+				AF110B672928D68C00C921FE /* ImplicitAnimationDemo.swift in Sources */,
+				AF110B582928949300C921FE /* DisclosureGroup.swift in Sources */,
 				AF110B4F2928944000C921FE /* UseOutlineGroup.swift in Sources */,
 				AF110B522928945D00C921FE /* UseList.swift in Sources */,
 				AF110B5E2928BA5C00C921FE /* Menu.swift in Sources */,
+				AF110B6E2928E9FC00C921FE /* AutoStartAnimation.swift in Sources */,
 				AF110B612928BAE100C921FE /* ShapeView.swift in Sources */,
+				AF110B762929254000C921FE /* Gestures.swift in Sources */,
 				AF110B5B2928B72C00C921FE /* ContextMenu.swift in Sources */,
 				AF110B642928C06D00C921FE /* DrawingView.swift in Sources */,
+				AF110B6A2928DCA100C921FE /* ExplicitAnimation.swift in Sources */,
 				AF110B3D2928862900C921FE /* SwiftUIDemoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -230,16 +305,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF110B7B29292F5D00C921FE /* UpdatingCallBackAction.swift in Sources */,
+				AF110B742928EEE400C921FE /* Transition.swift in Sources */,
 				AF110B402928862900C921FE /* ContentView.swift in Sources */,
+				AF110B7F29294EF000C921FE /* ComposingGestures.swift in Sources */,
 				AF110B4D2928866A00C921FE /* CarInfo.swift in Sources */,
 				AF110B562928947600C921FE /* CellView.swift in Sources */,
-				AF110B592928949300C921FE /* SettingView.swift in Sources */,
+				AF110B682928D68C00C921FE /* ImplicitAnimationDemo.swift in Sources */,
+				AF110B592928949300C921FE /* DisclosureGroup.swift in Sources */,
 				AF110B502928944000C921FE /* UseOutlineGroup.swift in Sources */,
 				AF110B532928945D00C921FE /* UseList.swift in Sources */,
 				AF110B5F2928BA5C00C921FE /* Menu.swift in Sources */,
+				AF110B6F2928E9FC00C921FE /* AutoStartAnimation.swift in Sources */,
 				AF110B622928BAE100C921FE /* ShapeView.swift in Sources */,
+				AF110B772929254000C921FE /* Gestures.swift in Sources */,
 				AF110B5C2928B72C00C921FE /* ContextMenu.swift in Sources */,
 				AF110B652928C06D00C921FE /* DrawingView.swift in Sources */,
+				AF110B6B2928DCA100C921FE /* ExplicitAnimation.swift in Sources */,
 				AF110B3E2928862900C921FE /* SwiftUIDemoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -297,6 +379,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -349,6 +433,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
